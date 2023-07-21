@@ -1,9 +1,9 @@
-# Godot 4.2 dev 1
+# Godot 4.0.4 RC 1
 
-Built from commit 0c2144da908a8223e188d27ed1d31d8248056c78.
+Built from commit cfedb0a7a6732ee4bdc5c561bbb27857a890af79.
 
 Report bugs on GitHub after checking that they haven't been reported:
 https://github.com/godotengine/godot/issues
 
-To make a custom build which would also be recognized as dev1, you should define
-`GODOT_VERSION_STATUS=dev1` in your build environment prior to compiling.
+To make a custom build which would also be recognized as rc1, you should define
+`GODOT_VERSION_STATUS=rc1` in your build environment prior to compiling.
