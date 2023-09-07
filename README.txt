@@ -1,9 +1,14 @@
-# Godot 4.2 dev 4
+# Godot 3.5.3 RC 1
 
-Built from commit 549fcce5f8f7beace3e5c90e9bbe4335d4fd1476.
+Built from commit fc32e066af1cd6766762dec31c7d2224f3d42c5f.
 
 Report bugs on GitHub after checking that they haven't been reported:
 https://github.com/godotengine/godot/issues
 
-To make a custom build which would also be recognized as dev4, you should define
-`GODOT_VERSION_STATUS=dev4` in your build environment prior to compiling.
+To make a custom build which would also be recognized as rc1, you should define
+`GODOT_VERSION_STATUS=rc1` in your build environment prior to compiling.
+
+---
+
+The UWP build also requires manually backporting this PR:
+https://github.com/godotengine/godot/pull/81401
